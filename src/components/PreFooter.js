@@ -1,7 +1,5 @@
-import { Container, Typography, Box, Button, Grid, Hidden } from '@mui/material';
+import { Container, Typography, Box, Button, Grid } from '@mui/material';
 import React from 'react';
-import preFooter from '../assets/preFooter.jpg';
-import Diversity1Icon from '@mui/icons-material/Diversity1';
 import preFooter1 from '../assets/preFooter1.jpg';
 import preFooter2 from '../assets/preFooter2.jpg';
 
@@ -9,47 +7,6 @@ import preFooter2 from '../assets/preFooter2.jpg';
 const PreFooter = () => {
     return (
         <>
-            <Box>
-                <img
-                    src={preFooter}
-                    alt='boxes'
-                    style={{
-                        width: '100%',
-                        height: 'auto',
-                        minHeight: '100px',
-                        objectFit: 'cover',
-                        marginTop: '5%'
-                    }}
-                />
-                <Box style={{
-                    position: 'absolute',
-                    textAlign: 'center',
-                    color: 'black',
-                    transform: 'translateY(-100%)',
-                    padding: '6rem'
-                }}>
-                    <Hidden lgDown>
-                        <Diversity1Icon
-                            style={{ fontSize: '200px', marginRight: '10%' }}
-                        />
-                        <Typography variant='h3' gutterBottom>
-                            See how your shipping empowers diverse voices
-                        </Typography>
-                    </Hidden>
-                    <Hidden lgDown>
-                        <Typography variant='h7'>
-                            With the help of our global team and customers,
-                            FedEx supports several nonprofits. In honor of
-                            Black History Month, let’s look at some that
-                            promote diversity, equity, and inclusion.
-                        </Typography>
-                    </Hidden>
-                    <Button size='large'
-                        variant='contained'
-                        style={{ display: 'flex', marginLeft: '10%', margin: '10%', backgroundColor: '#8000ff' }}>
-                        See The Non-Profits</Button>
-                </Box>
-            </Box>
             <Box>
                 <Typography variant='h3' gutterBottom style={{ textAlign: 'center', marginTop: '5%' }}>
                     Make a lasting impression on your customers

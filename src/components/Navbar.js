@@ -1,4 +1,4 @@
-import { AppBar, Container, ListItem, Avatar, Box, Toolbar, FormControl, Drawer, List, InputLabel, MenuItem, Select, TextField, Button, IconButton, ListItemText, useMediaQuery } from '@mui/material';
+import { AppBar, Container, ListItem, Avatar, Box, Toolbar, FormControl, Drawer, List, InputLabel, MenuItem, Select, TextField, Button, IconButton, ListItemText, useMediaQuery, Hidden } from '@mui/material';
 import React, { useState } from 'react'
 import logo from '../assets/fedup.png';
 import SearchIcon from '@mui/icons-material/SearchOutlined';
@@ -23,7 +23,9 @@ const Navbar = () => {
         'Tracking',
         'Design & Print',
         'Locations',
-        'Support'
+        'Support',
+        'Sign In',
+        'Sign Up',
     ]
     return (
         <Box style={{ fontSize: '5px', color: 'white' }}>
@@ -163,15 +165,19 @@ const Navbar = () => {
                                 <IconButton color='inherit'>
                                     <SearchIcon />
                                 </IconButton>
-                                <Button color='inherit' style={{ marginRight: '5px' }}>
-                                    Sign Up
-                                </Button>
-                                <Button color='inherit' style={{ marginRight: '5px' }}>
-                                    Sign In
-                                </Button>
+                                <Hidden mdDown>
+                                    <Button color='inherit' style={{ marginRight: '5px' }}>
+                                        Sign Up
+                                    </Button>
+                                    <Button color='inherit' style={{ marginRight: '5px' }}>
+                                        Sign In
+                                    </Button>
+                                </Hidden>
                                 <Avatar
                                     alt='user'
-                                    style={{ marginRight: '5px' }}
+                                    style={{
+                                        marginRight: '5px',
+                                    }}
                                 />
                             </Box>
                         </div>

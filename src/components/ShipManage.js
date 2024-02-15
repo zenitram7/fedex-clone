@@ -36,16 +36,8 @@ const ShipManage = () => {
         margin: '10px',
     }
 
-
-    const iconStyle = {
-        margin: '5px',
-        marginRight: '15px',
-    }
-
     return (
         <>
-
-
             <div style={containerStyle}>
                 <Container maxWidth='sm'>
                     <h1 style={{
@@ -58,15 +50,15 @@ const ShipManage = () => {
                     }}>Ship, Manage, Track & Deliver</h1>
                     <ButtonGroup size='large' variant='contained' aria-label='' style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px', boxShadow: 'none' }}>
                         <Button style={{ backgroundColor: '#8000ff', borderColor: 'black' }}>
-                            <RateReview style={iconStyle} />
+                            <RateReview />
                             Rate & Review
                         </Button>
                         <Button style={{ backgroundColor: '#8000ff', borderColor: 'black' }}>
-                            <LocalShippingIcon style={iconStyle} />
+                            <LocalShippingIcon />
                             Track
                         </Button>
                         <Button style={{ backgroundColor: '#8000ff' }}>
-                            <PlaceIcon style={iconStyle} />
+                            <PlaceIcon />
                             Locations
                         </Button>
                     </ButtonGroup>

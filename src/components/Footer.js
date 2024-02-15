@@ -1,4 +1,4 @@
-import { Typography, Container, Grid, Box, Link, List, ListItem, ListItemText, MenuItem, Select, FormControl, Divider, IconButton, AppBar, InputLabel } from '@mui/material';
+import { Typography, Container, Grid, Box, Hidden, List, ListItem, ListItemText, MenuItem, Select, FormControl, Divider, IconButton, AppBar, InputLabel } from '@mui/material';
 import React from 'react';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -98,11 +98,13 @@ const Footer = () => {
                 <AppBar position='static' style={{ backgroundColor: '#8000ff', padding: '20px' }}>
                     <Container maxWidth='xl' style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                         <Typography>© FedEx</Typography>
-                        <Box style={{ display: 'flex', alignItems: 'center', flexDirection: 'row-reverse' }}>
-                            <Typography variant='body2'>| Site Map ||</Typography>
-                            <Typography variant='body2'>| Terms Of Use |</Typography>
-                            <Typography variant='body2'>|| Privacy |</Typography>
-                        </Box>
+                        <Hidden mdDown>
+                            <Box style={{ display: 'flex', alignItems: 'center', flexDirection: 'row-reverse' }}>
+                                <Typography variant='body2'>| Site Map ||</Typography>
+                                <Typography variant='body2'>| Terms Of Use |</Typography>
+                                <Typography variant='body2'>|| Privacy |</Typography>
+                            </Box>
+                        </Hidden>
                     </Container>
                 </AppBar>
             </Box>
