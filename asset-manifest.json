@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/fedex-clone/static/css/main.75f79aac.css",
+    "main.js": "/fedex-clone/static/js/main.b62eefc2.js",
+    "static/media/valentinesDay5.jpg": "/fedex-clone/static/media/valentinesDay5.0054ee784e2145e21eee.jpg",
+    "static/media/valentinesDay3.jpg": "/fedex-clone/static/media/valentinesDay3.10cdb88dbeddf5689b18.jpg",
+    "static/media/smallBiz.jpg": "/fedex-clone/static/media/smallBiz.e6231dfcd3f81cc5bc7e.jpg",
+    "static/media/valentinesDay4.jpg": "/fedex-clone/static/media/valentinesDay4.246a1f339cb2a8435e6a.jpg",
+    "static/media/ShipManage.jpg": "/fedex-clone/static/media/ShipManage.7d4fe2aaa1ebd15a332c.jpg",
+    "static/media/preFooter2.jpg": "/fedex-clone/static/media/preFooter2.7d5b372ac4580f1d2081.jpg",
+    "static/media/valentinesDay2.jpg": "/fedex-clone/static/media/valentinesDay2.82c3e7176a6905dfbd27.jpg",
+    "static/media/valentinesDay6.jpg": "/fedex-clone/static/media/valentinesDay6.ead2017096aae247afab.jpg",
+    "static/media/valentinesDay.jpg": "/fedex-clone/static/media/valentinesDay.b4ca9281c29e47bc79f6.jpg",
+    "static/media/preFooter1.jpg": "/fedex-clone/static/media/preFooter1.f0699ff1529d75d9faef.jpg",
+    "static/media/fedup.png": "/fedex-clone/static/media/fedup.02759f8608d68b07d3d7.png",
+    "index.html": "/fedex-clone/index.html",
+    "main.75f79aac.css.map": "/fedex-clone/static/css/main.75f79aac.css.map",
+    "main.b62eefc2.js.map": "/fedex-clone/static/js/main.b62eefc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75f79aac.css",
+    "static/js/main.b62eefc2.js"
+  ]
+}
